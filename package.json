@@ -1,0 +1,22 @@
+{
+  "name": "climbsight",
+  "version": "1.0.0",
+  "description": "site for my personal climbing stuff i guess",
+  "main": "src/app/main.ts",
+  "type": "module",
+  "scripts": {
+    "dev": "DOTENV=.env tsx ./src/app/main.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0",
+    "tsx": "^4.19.1",
+    "typescript": "^5.6.2"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21"
+  }
+}
